@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T15:11:42.532Z",
+  "lastUpdated": "2026-09-14T15:11:45.915Z",
   "source": "git",
   "answers": [
     {
@@ -1267,17 +1267,42 @@
       "id": "-1667874680-1789398702532",
       "createdAt": "2026-09-14T15:11:42.532Z",
       "updatedAt": "2026-09-14T15:11:42.532Z"
+    },
+    {
+      "questionHash": "-2079708477",
+      "question": "Xét hàm f có công thức hàm như sau: Khi f liên tục tại điểm thì đạt giá trị nào?",
+      "answer": "B",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Đáp án đúng là:",
+      "options": [
+        {
+          "text": "1",
+          "value": "A"
+        },
+        {
+          "text": "Đáp án đúng là:",
+          "value": "B"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral",
+      "questionImages": [],
+      "id": "-2079708477-1789398705915",
+      "createdAt": "2026-09-14T15:11:45.915Z",
+      "updatedAt": "2026-09-14T15:11:45.915Z"
     }
   ],
   "stats": {
-    "totalAnswers": 39,
+    "totalAnswers": 40,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T15:11:42.532Z"
+    "lastSync": "2026-09-14T15:11:45.915Z"
   },
   "metadata": {
     "machineId": "default",
