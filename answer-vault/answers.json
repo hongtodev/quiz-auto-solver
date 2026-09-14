@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T15:11:29.211Z",
+  "lastUpdated": "2026-09-14T15:11:39.120Z",
   "source": "git",
   "answers": [
     {
@@ -1205,17 +1205,46 @@
       "id": "-1920106123-1789398646644",
       "createdAt": "2026-09-14T15:11:29.210Z",
       "updatedAt": "2026-09-14T15:11:29.210Z"
+    },
+    {
+      "questionHash": "925381187",
+      "question": "Giới hạn bằng",
+      "answer": "C",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "0 Đáp án đúng là: 0",
+      "options": [
+        {
+          "text": "1",
+          "value": "A"
+        },
+        {
+          "text": "không tồn tại",
+          "value": "B"
+        },
+        {
+          "text": "0 Đáp án đúng là: 0",
+          "value": "C"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral",
+      "questionImages": [],
+      "id": "925381187-1789398699119",
+      "createdAt": "2026-09-14T15:11:39.119Z",
+      "updatedAt": "2026-09-14T15:11:39.119Z"
     }
   ],
   "stats": {
-    "totalAnswers": 37,
+    "totalAnswers": 38,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T15:11:29.211Z"
+    "lastSync": "2026-09-14T15:11:39.120Z"
   },
   "metadata": {
     "machineId": "default",
