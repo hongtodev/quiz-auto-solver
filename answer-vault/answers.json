@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T15:04:25.565Z",
+  "lastUpdated": "2026-09-14T15:04:59.929Z",
   "source": "git",
   "answers": [
     {
@@ -875,17 +875,50 @@
       "id": "2092038493-1789398260016",
       "createdAt": "2026-09-14T15:04:20.016Z",
       "updatedAt": "2026-09-14T15:04:20.016Z"
+    },
+    {
+      "questionHash": "434616773",
+      "question": "Chức năng cơ bản của máy tính là gì ?",
+      "answer": "A",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Thực hiện chương trình đang có trong bộ nhớ chính",
+      "options": [
+        {
+          "text": "Thực hiện chương trình đang có trong bộ nhớ chính",
+          "value": "A"
+        },
+        {
+          "text": "Vào mạng Internet",
+          "value": "B"
+        },
+        {
+          "text": "Hỗ trợ con người sống và làm việc hiệu quả hơn",
+          "value": "C"
+        },
+        {
+          "text": "Soạn thảo văn bản",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral",
+      "questionImages": [],
+      "id": "434616773-1789398299929",
+      "createdAt": "2026-09-14T15:04:59.929Z",
+      "updatedAt": "2026-09-14T15:04:59.929Z"
     }
   ],
   "stats": {
-    "totalAnswers": 27,
+    "totalAnswers": 28,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T15:04:25.565Z"
+    "lastSync": "2026-09-14T15:04:59.929Z"
   },
   "metadata": {
     "machineId": "default",
