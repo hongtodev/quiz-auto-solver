@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T15:10:39.819Z",
+  "lastUpdated": "2026-09-14T15:10:46.644Z",
   "source": "git",
   "answers": [
     {
@@ -1172,17 +1172,50 @@
       "id": "-1990088144-1789398591191",
       "createdAt": "2026-09-14T15:09:51.191Z",
       "updatedAt": "2026-09-14T15:09:51.191Z"
+    },
+    {
+      "questionHash": "-1920106123",
+      "question": "Nếu con trỏ lệnh PC hiện đang chứa giá trị 10010000 (Binary), vậy địa chỉ của ô nhớ chứa lệnh cần nhập tiếp theo sẽ là:",
+      "answer": "B",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "10010000",
+      "options": [
+        {
+          "text": "10010001",
+          "value": "A"
+        },
+        {
+          "text": "10010000",
+          "value": "B"
+        },
+        {
+          "text": "10010011",
+          "value": "C"
+        },
+        {
+          "text": "10010010",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral",
+      "questionImages": [],
+      "id": "-1920106123-1789398646644",
+      "createdAt": "2026-09-14T15:10:46.644Z",
+      "updatedAt": "2026-09-14T15:10:46.644Z"
     }
   ],
   "stats": {
-    "totalAnswers": 36,
+    "totalAnswers": 37,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T15:10:39.819Z"
+    "lastSync": "2026-09-14T15:10:46.644Z"
   },
   "metadata": {
     "machineId": "default",
