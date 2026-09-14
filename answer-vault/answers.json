@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T15:05:03.569Z",
+  "lastUpdated": "2026-09-14T15:05:06.762Z",
   "source": "git",
   "answers": [
     {
@@ -941,17 +941,50 @@
       "id": "-433959207-1789398303569",
       "createdAt": "2026-09-14T15:05:03.569Z",
       "updatedAt": "2026-09-14T15:05:03.569Z"
+    },
+    {
+      "questionHash": "1941908414",
+      "question": "Chức năng của bộ nhớ chính là gì ?",
+      "answer": "C",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Chứa chương trình đang thực hiện và dữ liệu có liên quan",
+      "options": [
+        {
+          "text": "Chứa thông tin",
+          "value": "A"
+        },
+        {
+          "text": "Chứa dữ liệu",
+          "value": "B"
+        },
+        {
+          "text": "Chứa chương trình đang thực hiện và dữ liệu có liên quan",
+          "value": "C"
+        },
+        {
+          "text": "Chứa tập tin chương trình và dữ liệu có liên quan",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral",
+      "questionImages": [],
+      "id": "1941908414-1789398306762",
+      "createdAt": "2026-09-14T15:05:06.762Z",
+      "updatedAt": "2026-09-14T15:05:06.762Z"
     }
   ],
   "stats": {
-    "totalAnswers": 29,
+    "totalAnswers": 30,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T15:05:03.569Z"
+    "lastSync": "2026-09-14T15:05:06.762Z"
   },
   "metadata": {
     "machineId": "default",
