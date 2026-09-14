@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T15:40:15.240Z",
+  "lastUpdated": "2026-09-14T15:40:18.593Z",
   "source": "git",
   "answers": [
     {
@@ -1262,11 +1262,11 @@
       "confidence": 1,
       "confirmed": true,
       "source": "moodle-review",
-      "model": "mistral",
+      "model": "quiz-mistral",
       "questionImages": [],
       "id": "-1667874680-1789398702532",
-      "createdAt": "2026-09-14T15:35:03.618Z",
-      "updatedAt": "2026-09-14T15:35:03.618Z"
+      "createdAt": "2026-09-14T15:40:18.592Z",
+      "updatedAt": "2026-09-14T15:40:18.592Z"
     },
     {
       "questionHash": "-2079708477",
@@ -1356,7 +1356,7 @@
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T15:40:15.240Z"
+    "lastSync": "2026-09-14T15:40:18.593Z"
   },
   "metadata": {
     "machineId": "default",
