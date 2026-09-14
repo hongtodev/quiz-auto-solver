@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T15:28:06.668Z",
+  "lastUpdated": "2026-09-14T15:28:10.402Z",
   "source": "git",
   "answers": [
     {
@@ -1272,7 +1272,7 @@
       "questionHash": "-2079708477",
       "question": "Xét hàm f có công thức hàm như sau: Khi f liên tục tại điểm thì đạt giá trị nào?",
       "answer": "B",
-      "answerText": "Đáp án đã đối chiếu đúng trên Moodle.",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
       "correctAnswerText": "Đáp án đúng là:",
       "options": [
         {
@@ -1286,12 +1286,12 @@
       ],
       "confidence": 1,
       "confirmed": true,
-      "source": "verified-moodle",
+      "source": "moodle-review",
       "model": "mistral",
       "questionImages": [],
       "id": "-2079708477-1789398705915",
-      "createdAt": "2026-09-14T15:26:01.827Z",
-      "updatedAt": "2026-09-14T15:26:01.827Z"
+      "createdAt": "2026-09-14T15:28:10.402Z",
+      "updatedAt": "2026-09-14T15:28:10.402Z"
     },
     {
       "questionHash": "1272392751",
@@ -1356,7 +1356,7 @@
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T15:28:06.668Z"
+    "lastSync": "2026-09-14T15:28:10.402Z"
   },
   "metadata": {
     "machineId": "default",
