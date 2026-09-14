@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T15:04:14.924Z",
+  "lastUpdated": "2026-09-14T15:04:20.016Z",
   "source": "git",
   "answers": [
     {
@@ -809,17 +809,83 @@
       "id": "449829066-1789398254924",
       "createdAt": "2026-09-14T15:04:14.924Z",
       "updatedAt": "2026-09-14T15:04:14.924Z"
+    },
+    {
+      "questionHash": "-1486193070",
+      "question": "Trong đơn vị xử lý trung tâm có thanh ghi địa chỉ bộ nhớ MAR (Memory Address Register). Trong một chu kỳ thực hiện lệnh, thanh ghi MAR được dùng để chứa (xác định):",
+      "answer": "D",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Địa chỉ ô nhớ mà đơn vị xử lý trung tâm cần truy cập trong quá trình thực hiện lệnh",
+      "options": [
+        {
+          "text": "Địa chỉ ô nhớ chứa toán hạng của lệnh đang được thực hiện",
+          "value": "A"
+        },
+        {
+          "text": "Địa chỉ ô nhớ chứa lệnh tiếp theo",
+          "value": "B"
+        },
+        {
+          "text": "Địa chỉ ô nhớ chứa lệnh đang được thực hiện",
+          "value": "C"
+        },
+        {
+          "text": "Địa chỉ ô nhớ mà đơn vị xử lý trung tâm cần truy cập trong quá trình thực hiện lệnh",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral",
+      "questionImages": [],
+      "id": "-1486193070-1789398259980",
+      "createdAt": "2026-09-14T15:04:19.980Z",
+      "updatedAt": "2026-09-14T15:04:19.980Z"
+    },
+    {
+      "questionHash": "2092038493",
+      "question": "Trong đơn vị xử lý trung tâm, đơn vị điều khiển CU sinh ra các tín hiệu điều khiển dựa trên cơ sở:",
+      "answer": "C",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Các thông tin chứa trong mã thao tác của mã lệnh máy",
+      "options": [
+        {
+          "text": "Các thông tin chứa trong chương trình đang chạy trong máy tính",
+          "value": "A"
+        },
+        {
+          "text": "Các thông tin từ người sử dụng máy tính",
+          "value": "B"
+        },
+        {
+          "text": "Các thông tin chứa trong mã thao tác của mã lệnh máy",
+          "value": "C"
+        },
+        {
+          "text": "Các thông tin chứa trong mã lệnh máy",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral",
+      "questionImages": [],
+      "id": "2092038493-1789398260016",
+      "createdAt": "2026-09-14T15:04:20.016Z",
+      "updatedAt": "2026-09-14T15:04:20.016Z"
     }
   ],
   "stats": {
-    "totalAnswers": 25,
+    "totalAnswers": 27,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T15:04:14.924Z"
+    "lastSync": "2026-09-14T15:04:20.016Z"
   },
   "metadata": {
     "machineId": "default",
