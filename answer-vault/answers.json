@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T15:28:13.552Z",
+  "lastUpdated": "2026-09-14T15:28:16.874Z",
   "source": "git",
   "answers": [
     {
@@ -1318,7 +1318,7 @@
       "questionHash": "-1944104823",
       "question": "Khi viết: Cho x → 0 thì giá trị của là:",
       "answer": "A",
-      "answerText": "Đáp án đã đối chiếu đúng trên Moodle.",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
       "correctAnswerText": "1/3 Đáp án đúng là: 1/3Vì: áp dụng VCB tương đương, khi x →0, ta có, sau đó nhân tử số và mẫu số với biểu thức liên hợp của tử số.",
       "options": [
         {
@@ -1340,12 +1340,12 @@
       ],
       "confidence": 1,
       "confirmed": true,
-      "source": "verified-moodle",
+      "source": "moodle-review",
       "model": "mistral",
       "questionImages": [],
       "id": "-1944104823-1789398712518",
-      "createdAt": "2026-09-14T15:26:35.968Z",
-      "updatedAt": "2026-09-14T15:26:35.968Z"
+      "createdAt": "2026-09-14T15:28:16.874Z",
+      "updatedAt": "2026-09-14T15:28:16.874Z"
     }
   ],
   "stats": {
@@ -1356,7 +1356,7 @@
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T15:28:13.552Z"
+    "lastSync": "2026-09-14T15:28:16.874Z"
   },
   "metadata": {
     "machineId": "default",
