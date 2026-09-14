@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T14:53:28.796Z",
+  "lastUpdated": "2026-09-14T14:53:32.458Z",
   "source": "git",
   "answers": [
     {
@@ -157,17 +157,50 @@
       "id": "-820181612-1789397608795",
       "createdAt": "2026-09-14T14:53:28.795Z",
       "updatedAt": "2026-09-14T14:53:28.795Z"
+    },
+    {
+      "questionHash": "1864168154",
+      "question": "Mục đích của \"xác thực hai yếu tố\" (Two-Factor Authentication - 2FA) là gì?",
+      "answer": "A",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Tăng cường bảo mật bằng cách yêu cầu hai phương thức xác minh danh tính khác nhau để đăng nhập",
+      "options": [
+        {
+          "text": "Tăng cường bảo mật bằng cách yêu cầu hai phương thức xác minh danh tính khác nhau để đăng nhập",
+          "value": "A"
+        },
+        {
+          "text": "Giúp bạn nhớ mật khẩu dễ hơn",
+          "value": "B"
+        },
+        {
+          "text": "Giúp bạn đăng nhập nhanh hơn",
+          "value": "C"
+        },
+        {
+          "text": "Cho phép nhiều người dùng cùng đăng nhập một tài khoản",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral",
+      "questionImages": [],
+      "id": "1864168154-1789397612457",
+      "createdAt": "2026-09-14T14:53:32.457Z",
+      "updatedAt": "2026-09-14T14:53:32.457Z"
     }
   ],
   "stats": {
-    "totalAnswers": 5,
+    "totalAnswers": 6,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T14:53:28.796Z"
+    "lastSync": "2026-09-14T14:53:32.458Z"
   },
   "metadata": {
     "machineId": "default",
