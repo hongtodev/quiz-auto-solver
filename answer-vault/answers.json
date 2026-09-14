@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T14:59:23.721Z",
+  "lastUpdated": "2026-09-14T14:59:26.053Z",
   "source": "git",
   "answers": [
     {
@@ -421,17 +421,50 @@
       "id": "-303544096-1789397749221",
       "createdAt": "2026-09-14T14:55:49.221Z",
       "updatedAt": "2026-09-14T14:55:49.221Z"
+    },
+    {
+      "questionHash": "2995820",
+      "question": "Phương pháp nào giúp người học \"nâng cao năng suất\" khi biết cách quản lý thời gian",
+      "answer": "D",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Phương pháp làm việc hiệu quả hơn và đạt được nhiều thành công hơn",
+      "options": [
+        {
+          "text": "Phương pháp đọc lướt",
+          "value": "A"
+        },
+        {
+          "text": "Phương pháp ghi chép đơn giản",
+          "value": "B"
+        },
+        {
+          "text": "Phương pháp học thuộc lòng",
+          "value": "C"
+        },
+        {
+          "text": "Phương pháp làm việc hiệu quả hơn và đạt được nhiều thành công hơn",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral",
+      "questionImages": [],
+      "id": "2995820-1789397966053",
+      "createdAt": "2026-09-14T14:59:26.053Z",
+      "updatedAt": "2026-09-14T14:59:26.053Z"
     }
   ],
   "stats": {
-    "totalAnswers": 13,
+    "totalAnswers": 14,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T14:59:23.721Z"
+    "lastSync": "2026-09-14T14:59:26.053Z"
   },
   "metadata": {
     "machineId": "default",
