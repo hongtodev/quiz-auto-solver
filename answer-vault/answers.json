@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T15:27:49.968Z",
+  "lastUpdated": "2026-09-14T15:27:53.235Z",
   "source": "git",
   "answers": [
     {
@@ -1239,7 +1239,7 @@
       "questionHash": "-1667874680",
       "question": "Khi viết: Cho x → +∞ thì giá trị của là:",
       "answer": "B",
-      "answerText": "Đáp án đã đối chiếu đúng trên Moodle.",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
       "correctAnswerText": "1 Đáp án đúng là: 1Vì: chia tử và mẫu của phân thức cho ta được",
       "options": [
         {
@@ -1261,12 +1261,12 @@
       ],
       "confidence": 1,
       "confirmed": true,
-      "source": "verified-moodle",
+      "source": "moodle-review",
       "model": "mistral",
       "questionImages": [],
       "id": "-1667874680-1789398702532",
-      "createdAt": "2026-09-14T15:25:45.335Z",
-      "updatedAt": "2026-09-14T15:25:45.335Z"
+      "createdAt": "2026-09-14T15:27:53.235Z",
+      "updatedAt": "2026-09-14T15:27:53.235Z"
     },
     {
       "questionHash": "-2079708477",
@@ -1356,7 +1356,7 @@
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T15:27:49.968Z"
+    "lastSync": "2026-09-14T15:27:53.235Z"
   },
   "metadata": {
     "machineId": "default",
