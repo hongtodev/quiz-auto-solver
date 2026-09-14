@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T14:56:08.859Z",
+  "lastUpdated": "2026-09-14T14:56:20.916Z",
   "source": "git",
   "answers": [
     {
@@ -63,7 +63,7 @@
       "questionHash": "1254355731",
       "question": "Tự học là gì?",
       "answer": "B",
-      "answerText": "Đáp án đã đối chiếu đúng trên Moodle.",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
       "correctAnswerText": "Quá trình tự nghiên cứu, chủ động lĩnh hội kiến thức",
       "options": [
         {
@@ -85,12 +85,12 @@
       ],
       "confidence": 1,
       "confirmed": true,
-      "source": "verified-moodle",
+      "source": "moodle-review",
       "model": "mistral",
       "questionImages": [],
       "id": "1254355731-1789397601762",
-      "createdAt": "2026-09-14T14:55:15.981Z",
-      "updatedAt": "2026-09-14T14:55:15.981Z"
+      "createdAt": "2026-09-14T14:56:20.915Z",
+      "updatedAt": "2026-09-14T14:56:20.915Z"
     },
     {
       "questionHash": "1735757337",
@@ -431,7 +431,7 @@
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T14:56:08.859Z"
+    "lastSync": "2026-09-14T14:56:20.916Z"
   },
   "metadata": {
     "machineId": "default",
