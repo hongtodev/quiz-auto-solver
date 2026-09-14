@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T15:01:59.047Z",
+  "lastUpdated": "2026-09-14T15:02:01.303Z",
   "source": "git",
   "answers": [
     {
@@ -586,17 +586,50 @@
       "id": "-1415259205-1789398103744",
       "createdAt": "2026-09-14T15:01:43.744Z",
       "updatedAt": "2026-09-14T15:01:43.744Z"
+    },
+    {
+      "questionHash": "-2125662145",
+      "question": "Có những cách nào để tạo một cuộc họp mới trên Google Meet thông qua tài khoản cá nhân?",
+      "answer": "D",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Tạo cuộc họp trực tiếp và Lên lịch cuộc họp trước",
+      "options": [
+        {
+          "text": "Tạo cuộc họp trực tiếp",
+          "value": "A"
+        },
+        {
+          "text": "Chỉ có thể tham gia cuộc họp đã có",
+          "value": "B"
+        },
+        {
+          "text": "Tạo cuộc họp trực tiếp, lên lịch sẵn và gửi email cho các thành viên tham gia",
+          "value": "C"
+        },
+        {
+          "text": "Tạo cuộc họp trực tiếp và Lên lịch cuộc họp trước",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral",
+      "questionImages": [],
+      "id": "-2125662145-1789398121302",
+      "createdAt": "2026-09-14T15:02:01.302Z",
+      "updatedAt": "2026-09-14T15:02:01.302Z"
     }
   ],
   "stats": {
-    "totalAnswers": 18,
+    "totalAnswers": 19,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T15:01:59.047Z"
+    "lastSync": "2026-09-14T15:02:01.303Z"
   },
   "metadata": {
     "machineId": "default",
