@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T15:03:22.368Z",
+  "lastUpdated": "2026-09-14T15:03:43.880Z",
   "source": "git",
   "answers": [
     {
@@ -652,17 +652,50 @@
       "id": "-806933751-1789398133676",
       "createdAt": "2026-09-14T15:02:13.676Z",
       "updatedAt": "2026-09-14T15:02:13.676Z"
+    },
+    {
+      "questionHash": "1718695631",
+      "question": "Quá trình thực hiện một lệnh máy được điều khiển và điều phối bởi:",
+      "answer": "B",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Đơn vị điều khiển CU",
+      "options": [
+        {
+          "text": "Thanh ghi lệnh IR",
+          "value": "A"
+        },
+        {
+          "text": "Đơn vị điều khiển CU",
+          "value": "B"
+        },
+        {
+          "text": "Con trỏ lệnh PC",
+          "value": "C"
+        },
+        {
+          "text": "Chương trình đang chạy",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral",
+      "questionImages": [],
+      "id": "1718695631-1789398223879",
+      "createdAt": "2026-09-14T15:03:43.879Z",
+      "updatedAt": "2026-09-14T15:03:43.879Z"
     }
   ],
   "stats": {
-    "totalAnswers": 20,
+    "totalAnswers": 21,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T15:03:22.368Z"
+    "lastSync": "2026-09-14T15:03:43.880Z"
   },
   "metadata": {
     "machineId": "default",
