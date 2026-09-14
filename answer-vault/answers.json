@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T15:10:15.189Z",
+  "lastUpdated": "2026-09-14T15:10:18.683Z",
   "source": "git",
   "answers": [
     {
@@ -1044,9 +1044,9 @@
     {
       "questionHash": "1964599978",
       "question": "Xét một máy tính với tập lệnh máy khuôn dạng 8-bit, với phần địa chỉ chỉ có một địa chỉ 5 bit. Dạng gợi nhớ của lệnh máy như sau: Tên lệnh xxxxx, trong đó xxxxx là số nhị phân 5 bit. Lệnh cộng ADD xxxxx thực hiện cộng nội dung thanh ghi ACC với nội dung ô nhớ địa chỉ xxxxx, kết quả chứa vào ACC. Lệnh LOAD xxxxx thực hiện nhập nội dung ô nhớ địa chỉ xxxxx vào ACC. Hãy khảo sát quá trình đơn vị xử lý trung tâm thực hiện tuần tự hai lệnh sau:LOAD 01110ADD 10001 với giả định ô nhớ 01110 chứa giá trị 10010 và ô nhớ 10001 chứa gía trị 01001. Vậy sau khi thực hiện xong lệnh ADD, thanh chứa ACC sẽ có giá trị:",
-      "answer": "A",
+      "answer": "B",
       "answerText": "Đáp án được xác nhận trên trang Moodle.",
-      "correctAnswerText": "11111",
+      "correctAnswerText": "11011",
       "options": [
         {
           "text": "11111",
@@ -1071,8 +1071,8 @@
       "model": "mistral",
       "questionImages": [],
       "id": "1964599978-1789398319786",
-      "createdAt": "2026-09-14T15:09:49.302Z",
-      "updatedAt": "2026-09-14T15:09:49.302Z"
+      "createdAt": "2026-09-14T15:10:18.683Z",
+      "updatedAt": "2026-09-14T15:10:18.683Z"
     },
     {
       "questionHash": "139290988",
@@ -1182,7 +1182,7 @@
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T15:10:15.189Z"
+    "lastSync": "2026-09-14T15:10:18.683Z"
   },
   "metadata": {
     "machineId": "default",
