@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T14:54:32.619Z",
+  "lastUpdated": "2026-09-14T14:54:35.029Z",
   "source": "git",
   "answers": [
     {
@@ -322,17 +322,50 @@
       "id": "809876833-1789397672619",
       "createdAt": "2026-09-14T14:54:32.619Z",
       "updatedAt": "2026-09-14T14:54:32.619Z"
+    },
+    {
+      "questionHash": "-672677541",
+      "question": "Để thực hiện hoàn thiện quá trình thi trắc nghiệm trên hệ thống học tập LMS của HOU, thao tác chính xác mà sinh viên cần thực hiện ngay sau khi hoàn thành tất cả các câu hỏi trong một bài thi trắc nghiệm để nộp bài là gì?",
+      "answer": "D",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Bấm chọn \"Nộp bài và kết thúc\"",
+      "options": [
+        {
+          "text": "Đóng trình duyệt web",
+          "value": "A"
+        },
+        {
+          "text": "Bấm nút \"Xác nhận\"",
+          "value": "B"
+        },
+        {
+          "text": "Chờ hết thời gian để bài tự nộp",
+          "value": "C"
+        },
+        {
+          "text": "Bấm chọn \"Nộp bài và kết thúc\"",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral",
+      "questionImages": [],
+      "id": "-672677541-1789397675028",
+      "createdAt": "2026-09-14T14:54:35.028Z",
+      "updatedAt": "2026-09-14T14:54:35.028Z"
     }
   ],
   "stats": {
-    "totalAnswers": 10,
+    "totalAnswers": 11,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T14:54:32.619Z"
+    "lastSync": "2026-09-14T14:54:35.029Z"
   },
   "metadata": {
     "machineId": "default",
