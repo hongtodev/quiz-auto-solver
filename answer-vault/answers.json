@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T15:05:06.762Z",
+  "lastUpdated": "2026-09-14T15:05:09.910Z",
   "source": "git",
   "answers": [
     {
@@ -974,17 +974,50 @@
       "id": "1941908414-1789398306762",
       "createdAt": "2026-09-14T15:05:06.762Z",
       "updatedAt": "2026-09-14T15:05:06.762Z"
+    },
+    {
+      "questionHash": "-579384839",
+      "question": "Xét một máy tính với tập lệnh máy khuôn dạng 8-bit, với phần địa chỉ chỉ có một địa chỉ 5 bit. Dạng gợi nhớ của lệnh máy như sau: Tên lệnh xxxxx, trong đó xxxxx là số nhị phân 5 bit. Khi thực hiện lệnh rẽ nhánh (nhẩy) không điều kiện JMP xxxxx, con trỏ lệnh PC được nạp địa chỉ xxxxx. Giả sử ô nhớ chứa lệnh JMP 11010 có địa chỉ là 10011. Vậy địa chỉ ô nhớ chứa lệnh cần thực hiện tiếp sau lệnh JMP 11010 sẽ là:",
+      "answer": "D",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "11010",
+      "options": [
+        {
+          "text": "10011",
+          "value": "A"
+        },
+        {
+          "text": "10100",
+          "value": "B"
+        },
+        {
+          "text": "11011",
+          "value": "C"
+        },
+        {
+          "text": "11010",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral",
+      "questionImages": [],
+      "id": "-579384839-1789398309910",
+      "createdAt": "2026-09-14T15:05:09.910Z",
+      "updatedAt": "2026-09-14T15:05:09.910Z"
     }
   ],
   "stats": {
-    "totalAnswers": 30,
+    "totalAnswers": 31,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T15:05:06.762Z"
+    "lastSync": "2026-09-14T15:05:09.910Z"
   },
   "metadata": {
     "machineId": "default",
