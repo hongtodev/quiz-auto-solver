@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T14:53:25.702Z",
+  "lastUpdated": "2026-09-14T14:53:28.796Z",
   "source": "git",
   "answers": [
     {
@@ -124,17 +124,50 @@
       "id": "1735757337-1789397605702",
       "createdAt": "2026-09-14T14:53:25.702Z",
       "updatedAt": "2026-09-14T14:53:25.702Z"
+    },
+    {
+      "questionHash": "-820181612",
+      "question": "Kỹ năng đọc hiểu hỗ trợ tự học bằng cách nào?",
+      "answer": "B",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Giúp đọc nhanh, hiểu sâu và tóm tắt nội dung chính",
+      "options": [
+        {
+          "text": "Giúp ghi nhớ tất cả không cần chọn lọc",
+          "value": "A"
+        },
+        {
+          "text": "Giúp đọc nhanh, hiểu sâu và tóm tắt nội dung chính",
+          "value": "B"
+        },
+        {
+          "text": "Giúp sao chép tài liệu dễ hơn",
+          "value": "C"
+        },
+        {
+          "text": "Giúp tránh đọc tài liệu phức tạp",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral",
+      "questionImages": [],
+      "id": "-820181612-1789397608795",
+      "createdAt": "2026-09-14T14:53:28.795Z",
+      "updatedAt": "2026-09-14T14:53:28.795Z"
     }
   ],
   "stats": {
-    "totalAnswers": 4,
+    "totalAnswers": 5,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T14:53:25.702Z"
+    "lastSync": "2026-09-14T14:53:28.796Z"
   },
   "metadata": {
     "machineId": "default",
