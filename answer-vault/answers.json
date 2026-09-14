@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T15:11:45.915Z",
+  "lastUpdated": "2026-09-14T15:11:49.204Z",
   "source": "git",
   "answers": [
     {
@@ -1292,17 +1292,38 @@
       "id": "-2079708477-1789398705915",
       "createdAt": "2026-09-14T15:11:45.915Z",
       "updatedAt": "2026-09-14T15:11:45.915Z"
+    },
+    {
+      "questionHash": "1272392751",
+      "question": "Khi , VCB nào dưới đây không cùng bậc với các VCB còn lại ?",
+      "answer": "A",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Đáp án đúng là: Vì: khi x→0 thì =1+(cosx-1)→1, trong khi các giới hạn còn lại =0.",
+      "options": [
+        {
+          "text": "Đáp án đúng là: Vì: khi x→0 thì =1+(cosx-1)→1, trong khi các giới hạn còn lại =0.",
+          "value": "A"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral",
+      "questionImages": [],
+      "id": "1272392751-1789398709203",
+      "createdAt": "2026-09-14T15:11:49.203Z",
+      "updatedAt": "2026-09-14T15:11:49.203Z"
     }
   ],
   "stats": {
-    "totalAnswers": 40,
+    "totalAnswers": 41,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T15:11:45.915Z"
+    "lastSync": "2026-09-14T15:11:49.204Z"
   },
   "metadata": {
     "machineId": "default",
