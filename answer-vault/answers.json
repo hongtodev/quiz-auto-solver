@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T15:11:39.120Z",
+  "lastUpdated": "2026-09-14T15:11:42.532Z",
   "source": "git",
   "answers": [
     {
@@ -1234,17 +1234,50 @@
       "id": "925381187-1789398699119",
       "createdAt": "2026-09-14T15:11:39.119Z",
       "updatedAt": "2026-09-14T15:11:39.119Z"
+    },
+    {
+      "questionHash": "-1667874680",
+      "question": "Khi viết: Cho x → +∞ thì giá trị của là:",
+      "answer": "B",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "1 Đáp án đúng là: 1Vì: chia tử và mẫu của phân thức cho ta được",
+      "options": [
+        {
+          "text": "0",
+          "value": "A"
+        },
+        {
+          "text": "1 Đáp án đúng là: 1Vì: chia tử và mẫu của phân thức cho ta được",
+          "value": "B"
+        },
+        {
+          "text": "2",
+          "value": "C"
+        },
+        {
+          "text": "3",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral",
+      "questionImages": [],
+      "id": "-1667874680-1789398702532",
+      "createdAt": "2026-09-14T15:11:42.532Z",
+      "updatedAt": "2026-09-14T15:11:42.532Z"
     }
   ],
   "stats": {
-    "totalAnswers": 38,
+    "totalAnswers": 39,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T15:11:39.120Z"
+    "lastSync": "2026-09-14T15:11:42.532Z"
   },
   "metadata": {
     "machineId": "default",
