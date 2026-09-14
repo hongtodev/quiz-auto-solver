@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T15:01:18.540Z",
+  "lastUpdated": "2026-09-14T15:01:43.744Z",
   "source": "git",
   "answers": [
     {
@@ -553,17 +553,50 @@
       "id": "-1998343770-1789397976191",
       "createdAt": "2026-09-14T14:59:36.191Z",
       "updatedAt": "2026-09-14T14:59:36.191Z"
+    },
+    {
+      "questionHash": "-1415259205",
+      "question": "Vì sao kỹ năng thích nghi quan trọng trong học tập trực tuyến?",
+      "answer": "B",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Vì người học phải tự nghiên cứu và chủ động",
+      "options": [
+        {
+          "text": "Vì không cần kỹ năng nào khác",
+          "value": "A"
+        },
+        {
+          "text": "Vì người học phải tự nghiên cứu và chủ động",
+          "value": "B"
+        },
+        {
+          "text": "Vì giảng viên luôn dạy trực tiếp",
+          "value": "C"
+        },
+        {
+          "text": "Vì học trực tuyến ít thay đổi",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral",
+      "questionImages": [],
+      "id": "-1415259205-1789398103744",
+      "createdAt": "2026-09-14T15:01:43.744Z",
+      "updatedAt": "2026-09-14T15:01:43.744Z"
     }
   ],
   "stats": {
-    "totalAnswers": 17,
+    "totalAnswers": 18,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T15:01:18.540Z"
+    "lastSync": "2026-09-14T15:01:43.744Z"
   },
   "metadata": {
     "machineId": "default",
