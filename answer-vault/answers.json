@@ -1,0 +1,78 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-09-14T14:53:18.003Z",
+  "source": "git",
+  "answers": [
+    {
+      "id": "example-001",
+      "question": "What is the capital of France?",
+      "questionHash": "abc123def456",
+      "answer": "B",
+      "answerText": "Paris",
+      "confidence": 0.95,
+      "source": "ollama",
+      "model": "mistral",
+      "topic": "Geography",
+      "tags": [
+        "capital",
+        "europe",
+        "france"
+      ],
+      "createdAt": "2024-01-01T10:00:00Z",
+      "updatedAt": "2024-01-01T10:00:00Z",
+      "usage": {
+        "correctCount": 5,
+        "incorrectCount": 0,
+        "lastUsed": "2024-01-01T14:30:00Z"
+      }
+    },
+    {
+      "questionHash": "-384857244",
+      "question": "Trong các bước giải quyết vấn đề, sau khi thực hiện bước \"Xác định vấn đề\", bước tiếp theo là gì?",
+      "answer": "A",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Phân tích nguyên nhân",
+      "options": [
+        {
+          "text": "Phân tích nguyên nhân",
+          "value": "A"
+        },
+        {
+          "text": "Thực hiện và đánh giá",
+          "value": "B"
+        },
+        {
+          "text": "Đánh giá và lựa chọn",
+          "value": "C"
+        },
+        {
+          "text": "Đề xuất giải pháp",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral",
+      "questionImages": [],
+      "id": "-384857244-1789397598002",
+      "createdAt": "2026-09-14T14:53:18.002Z",
+      "updatedAt": "2026-09-14T14:53:18.002Z"
+    }
+  ],
+  "stats": {
+    "totalAnswers": 2,
+    "bySource": {
+      "ollama": 1,
+      "openai": 0,
+      "manual": 0
+    },
+    "accuracy": 1,
+    "lastSync": "2026-09-14T14:53:18.003Z"
+  },
+  "metadata": {
+    "machineId": "default",
+    "userName": "student",
+    "environment": "local"
+  }
+}
