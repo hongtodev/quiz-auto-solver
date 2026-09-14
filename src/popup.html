@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Auto Solver</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 450px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        .header p {
+            font-size: 12px;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 20px;
+            background: white;
+            max-height: 600px;
+            overflow-y: auto;
+        }
+
+        .tab-buttons {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .tab-btn {
+            padding: 10px 15px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            color: #666;
+            border-bottom: 3px solid transparent;
+            transition: all 0.3s;
+        }
+
+        .tab-btn.active {
+            color: #667eea;
+            border-bottom-color: #667eea;
+        }
+
+        .tab-btn:hover {
+            color: #667eea;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #667eea;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        .control-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-size: 13px;
+            color: #555;
+            margin-bottom: 6px;
+            font-weight: 500;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 13px;
+            font-family: inherit;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:focus,
+        input[type="password"]:focus,
+        textarea:focus,
+        select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .checkbox-group {
+            display: flex;
+            gap: 15px;
+        }
+
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+            accent-color: #667eea;
+        }
+
+        .checkbox-item label {
+            margin: 0;
+            font-size: 13px;
+            cursor: pointer;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        button {
+            padding: 10px 16px;
+            border: none;
+            border-radius: 4px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .btn-primary {
+            background: #667eea;
+            color: white;
+            flex: 1;
+        }
+
+        .btn-primary:hover {
+            background: #5568d3;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-primary:active {
+            transform: translateY(0);
+        }
+
+        .btn-secondary {
+            background: #f0f0f0;
+            color: #333;
+            flex: 1;
+        }
+
+        .btn-secondary:hover {
+            background: #e0e0e0;
+        }
+
+        .btn-danger {
+            background: #ff6b6b;
+            color: white;
+        }
+
+        .btn-danger:hover {
+            background: #ff5252;
+        }
+
+        .btn-success {
+            background: #51cf66;
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #40c057;
+        }
+
+        .status-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 12px;
+            border-radius: 4px;
+            font-size: 13px;
+            margin-bottom: 15px;
+        }
+
+        .status-box.success {
+            border-left-color: #51cf66;
+            background: #f1fce4;
+        }
+
+        .status-box.error {
+            border-left-color: #ff6b6b;
+            background: #ffe5e5;
+        }
+
+        .status-box.warning {
+            border-left-color: #ffa94d;
+            background: #fff3e0;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            opacity: 0.9;
+        }
+
+        .answer-list {
+            max-height: 300px;
+            overflow-y: auto;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+        }
+
+        .answer-item {
+            padding: 12px;
+            border-bottom: 1px solid #f0f0f0;
+            font-size: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .answer-item:last-child {
+            border-bottom: none;
+        }
+
+        .answer-text {
+            flex: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            color: #555;
+        }
+
+        .answer-value {
+            background: #667eea;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-weight: 600;
+            margin: 0 10px;
+            min-width: 25px;
+            text-align: center;
+        }
+
+        .info-text {
+            font-size: 12px;
+            color: #999;
+            line-height: 1.5;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .scroll-bar::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .scroll-bar::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        .scroll-bar::-webkit-scrollbar-thumb {
+            background: #667eea;
+            border-radius: 3px;
+        }
+
+        .scroll-bar::-webkit-scrollbar-thumb:hover {
+            background: #5568d3;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎓 Quiz Solver</h1>
+        <p>Giải đề bài tự động với AI</p>
+    </div>
+
+    <div class="content scroll-bar">
+        <div class="tab-buttons">
+            <button class="tab-btn active" data-tab="solver">Giải Bài</button>
+            <button class="tab-btn" data-tab="vault">Kho Đáp Án</button>
+            <button class="tab-btn" data-tab="settings">Cài Đặt</button>
+        </div>
+
+        <!-- TAB 1: Giải Bài -->
+        <div id="solver" class="tab-content active">
+            <div class="section">
+                <div class="stats">
+                    <div class="stat-card">
+                        <div class="stat-value" id="questionsCount">0</div>
+                        <div class="stat-label">Câu Tìm Được</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="solvedCount">0</div>
+                        <div class="stat-label">Câu Đã Giải</div>
+                    </div>
+                </div>
+
+                <div id="status-message"></div>
+
+                <div class="button-group">
+                    <button class="btn-primary" id="scanBtn">🔍 Scan Câu Hỏi</button>
+                    <button class="btn-success" id="solveBtn">⚡ Giải Toàn Bộ</button>
+                </div>
+
+                <div class="button-group">
+                    <button class="btn-secondary" id="nextBtn">➡️ Câu Tiếp</button>
+                    <button class="btn-secondary" id="prevBtn">⬅️ Câu Trước</button>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Các Câu Hỏi</div>
+                <div id="questionsList" class="answer-list">
+                    <div class="info-text">Nhấn "Scan Câu Hỏi" để bắt đầu</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 2: Kho Đáp Án -->
+        <div id="vault" class="tab-content">
+            <div class="section">
+                <div class="section-title">Answer Vault</div>
+                <div id="vaultStats" class="stats">
+                    <div class="stat-card">
+                        <div class="stat-value" id="totalAnswers">0</div>
+                        <div class="stat-label">Tổng Đáp Án</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="confirmedAnswers">0</div>
+                        <div class="stat-label">Đã Xác Nhận</div>
+                    </div>
+                </div>
+
+                <div class="button-group">
+                    <button class="btn-primary" id="refreshVaultBtn">🔄 Làm Mới</button>
+                    <button class="btn-danger" id="clearVaultBtn">🗑️ Xóa Toàn Bộ</button>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Danh Sách Đáp Án</div>
+                <div id="vaultList" class="answer-list scroll-bar">
+                    <div class="info-text">Không có đáp án</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 3: Cài Đặt -->
+        <div id="settings" class="tab-content">
+            <div class="section">
+                <div class="section-title">AI Configuration</div>
+                
+                <div class="control-group">
+                    <label for="aiProvider">AI Provider:</label>
+                    <select id="aiProvider">
+                        <option value="ollama">🚀 Ollama (Local, Free, Recommended)</option>
+                        <option value="openai">☁️ OpenAI (Cloud, Paid)</option>
+                    </select>
+                </div>
+
+                <div id="ollamaSettings" class="control-group">
+                    <label for="ollamaEndpoint">Ollama Endpoint:</label>
+                    <input type="text" id="ollamaEndpoint" placeholder="http://localhost:11434/api/chat">
+                    
+                    <label for="ollamaModel" style="margin-top: 10px;">Ollama Model:</label>
+                    <input type="text" id="ollamaModel" placeholder="mistral (or llama2, neural-chat, etc)">
+                    <small style="display: block; color: #999; margin-top: 5px;">
+                        📥 Tải model: <code>ollama pull mistral</code>
+                    </small>
+                </div>
+
+                <div id="openaiSettings" class="control-group" style="display: none;">
+                    <label for="apiKey">OpenAI API Key:</label>
+                    <input type="password" id="apiKey" placeholder="sk-...">
+                    <small style="display: block; color: #999; margin-top: 5px;">
+                        Lấy từ: https://platform.openai.com/api-keys
+                    </small>
+                </div>
+
+                <div class="control-group">
+                    <label for="sqlConnection">SQL Server Connection (JSON):</label>
+                    <textarea id="sqlConnection" placeholder='{"server":"...","database":"...","user":"...","password":"..."}'></textarea>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Tùy Chọn Giải</div>
+                
+                <div class="checkbox-group">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="autoSolve" checked>
+                        <label for="autoSolve">Tự Động Giải</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="useAI" checked>
+                        <label for="useAI">Dùng AI</label>
+                    </div>
+                </div>
+
+                <div class="checkbox-group" style="margin-top: 10px;">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="highlightCorrect" checked>
+                        <label for="highlightCorrect">Tô Sáng Đáp Án</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="scanImages">
+                        <label for="scanImages">Scan Hình Ảnh</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="button-group">
+                    <button class="btn-primary" id="saveSettings">💾 Lưu Cài Đặt</button>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Thông Tin</div>
+                <div class="info-text">
+                    <strong>Quiz Auto Solver v1.0</strong><br><br>
+                    Ứng dụng hỗ trợ giải đề bài trắc nghiệm tự động bằng AI và Answer Vault.<br><br>
+                    © 2024 - Mã nguồn mở
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

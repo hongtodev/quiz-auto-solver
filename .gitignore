@@ -1,0 +1,66 @@
+# Dependencies
+node_modules/
+package-lock.json
+npm-debug.log
+yarn.lock
+.yarn/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Build & Dist
+dist/
+build/
+out/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Chrome extension
+*.crx
+*.zip
+
+# SQL
+*.bak
+*.mdf
+*.ldf
+
+# Misc
+.cache/
+temp/
+tmp/
+.venv/
+__pycache__/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Chrome Web Store
+*.pem
+key.pem
+
+# Sensitive
+api-keys.txt
+secrets.json
+credentials.json
