@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T15:02:12.225Z",
+  "lastUpdated": "2026-09-14T15:02:13.676Z",
   "source": "git",
   "answers": [
     {
@@ -619,17 +619,50 @@
       "id": "-2125662145-1789398121302",
       "createdAt": "2026-09-14T15:02:01.302Z",
       "updatedAt": "2026-09-14T15:02:01.302Z"
+    },
+    {
+      "questionHash": "-806933751",
+      "question": "Công cụ tìm kiếm thông tin trên Internet phổ biến hiện nay là gì?",
+      "answer": "A",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Google",
+      "options": [
+        {
+          "text": "Google",
+          "value": "A"
+        },
+        {
+          "text": "DuckDuckGo",
+          "value": "B"
+        },
+        {
+          "text": "Bing",
+          "value": "C"
+        },
+        {
+          "text": "Yahoo",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral",
+      "questionImages": [],
+      "id": "-806933751-1789398133676",
+      "createdAt": "2026-09-14T15:02:13.676Z",
+      "updatedAt": "2026-09-14T15:02:13.676Z"
     }
   ],
   "stats": {
-    "totalAnswers": 19,
+    "totalAnswers": 20,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T15:02:12.225Z"
+    "lastSync": "2026-09-14T15:02:13.676Z"
   },
   "metadata": {
     "machineId": "default",
