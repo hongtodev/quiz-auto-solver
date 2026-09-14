@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T14:59:33.340Z",
+  "lastUpdated": "2026-09-14T14:59:36.191Z",
   "source": "git",
   "answers": [
     {
@@ -520,17 +520,50 @@
       "id": "1083611033-1789397973340",
       "createdAt": "2026-09-14T14:59:33.340Z",
       "updatedAt": "2026-09-14T14:59:33.340Z"
+    },
+    {
+      "questionHash": "-1998343770",
+      "question": "Kỹ năng thích nghi giúp người họ",
+      "answer": "D",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Sẵn sàng học hỏi và cập nhật kiến thức",
+      "options": [
+        {
+          "text": "Luôn phản đối thay đổi",
+          "value": "A"
+        },
+        {
+          "text": "Phụ thuộc vào người khác",
+          "value": "B"
+        },
+        {
+          "text": "Tránh học trực tuyến",
+          "value": "C"
+        },
+        {
+          "text": "Sẵn sàng học hỏi và cập nhật kiến thức",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral",
+      "questionImages": [],
+      "id": "-1998343770-1789397976191",
+      "createdAt": "2026-09-14T14:59:36.191Z",
+      "updatedAt": "2026-09-14T14:59:36.191Z"
     }
   ],
   "stats": {
-    "totalAnswers": 16,
+    "totalAnswers": 17,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T14:59:33.340Z"
+    "lastSync": "2026-09-14T14:59:36.191Z"
   },
   "metadata": {
     "machineId": "default",
