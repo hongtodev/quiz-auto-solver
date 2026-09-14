@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T15:04:01.674Z",
+  "lastUpdated": "2026-09-14T15:04:05.321Z",
   "source": "git",
   "answers": [
     {
@@ -714,17 +714,46 @@
       "id": "1259567776-1789398241674",
       "createdAt": "2026-09-14T15:04:01.674Z",
       "updatedAt": "2026-09-14T15:04:01.674Z"
+    },
+    {
+      "questionHash": "-960957417",
+      "question": "Xét một máy tính với tập lệnh máy khuôn dạng 8-bit, với phần địa chỉ chỉ có một địa chỉ 5 bit. Dạng gợi nhớ của lệnh máy như sau: Tên lệnh xxxxx, trong đó xxxxx là số nhị phân 5 bit. Lệnh trừ SUB xxxxx thực hiện lấy nội dung ACC trừ đi nội dung ô nhớ địa chỉ xxxxx, kết quả chứa vào ACC. Vậy trong giai đoạn (tiểu chu kỳ) thực hiện lệnh, các thao tác nào sau đây sẽ được Đơn vị xử lý trung tâm thực hiện:",
+      "answer": "A",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Xác định địa chỉ ô nhớ xxxxx chứa toán hạng, chuyển giá trị toán hạng từ ô nhớ này vào đơn vị xử lý trung tâm, lấy nội dung ACC trừ đi nội dung ô nhớ địa chỉ xxxxx, kết quả chứa vào ACC.",
+      "options": [
+        {
+          "text": "Xác định địa chỉ ô nhớ xxxxx chứa toán hạng, chuyển giá trị toán hạng từ ô nhớ này vào đơn vị xử lý trung tâm, lấy nội dung ACC trừ đi nội dung ô nhớ địa chỉ xxxxx, kết quả chứa vào ACC.",
+          "value": "A"
+        },
+        {
+          "text": "Chuyển giá trị toán hạng từ ô nhớ địa chỉ xxxxx vào đơn vị xử lý trung tâm , lấy nội dung ACC trừ đi nội dung ô nhớ địa chỉ xxxxx, kết quả chứa vào ACC",
+          "value": "B"
+        },
+        {
+          "text": "Lấy nội dung ACC trừ đi nội dung ô nhớ địa chỉ xxxxx, kết quả chứa vào ACC",
+          "value": "C"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral",
+      "questionImages": [],
+      "id": "-960957417-1789398245321",
+      "createdAt": "2026-09-14T15:04:05.321Z",
+      "updatedAt": "2026-09-14T15:04:05.321Z"
     }
   ],
   "stats": {
-    "totalAnswers": 22,
+    "totalAnswers": 23,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T15:04:01.674Z"
+    "lastSync": "2026-09-14T15:04:05.321Z"
   },
   "metadata": {
     "machineId": "default",
