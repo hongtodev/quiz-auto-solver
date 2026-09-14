@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T14:54:08.287Z",
+  "lastUpdated": "2026-09-14T14:54:13.330Z",
   "source": "git",
   "answers": [
     {
@@ -223,17 +223,50 @@
       "id": "1831500845-1789397648287",
       "createdAt": "2026-09-14T14:54:08.287Z",
       "updatedAt": "2026-09-14T14:54:08.287Z"
+    },
+    {
+      "questionHash": "874983874",
+      "question": "Khi thực hiện tìm kiếm một bức thư đã có của hòm thư điện tử Gmail. Để thực hiện tìm kiếm thư mà chỉ nhớ một cụm từ chứa bên trong bức thư thì bạn dùng  nào?",
+      "answer": "C",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Has the words",
+      "options": [
+        {
+          "text": "To",
+          "value": "A"
+        },
+        {
+          "text": "From",
+          "value": "B"
+        },
+        {
+          "text": "Has the words",
+          "value": "C"
+        },
+        {
+          "text": "Subject",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral",
+      "questionImages": [],
+      "id": "874983874-1789397653329",
+      "createdAt": "2026-09-14T14:54:13.329Z",
+      "updatedAt": "2026-09-14T14:54:13.329Z"
     }
   ],
   "stats": {
-    "totalAnswers": 7,
+    "totalAnswers": 8,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T14:54:08.287Z"
+    "lastSync": "2026-09-14T14:54:13.330Z"
   },
   "metadata": {
     "machineId": "default",
