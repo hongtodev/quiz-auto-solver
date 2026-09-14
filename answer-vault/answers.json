@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T14:57:04.520Z",
+  "lastUpdated": "2026-09-14T14:57:25.824Z",
   "source": "git",
   "answers": [
     {
@@ -96,7 +96,7 @@
       "questionHash": "1735757337",
       "question": "Forum H113 của Đại học Mở Hà Nội dùng để làm gì?",
       "answer": "B",
-      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "answerText": "Đáp án đã đối chiếu đúng trên Moodle.",
       "correctAnswerText": "Đặt câu hỏi và nhận giải đáp nhanh",
       "options": [
         {
@@ -118,12 +118,12 @@
       ],
       "confidence": 1,
       "confirmed": true,
-      "source": "moodle-review",
+      "source": "verified-moodle",
       "model": "mistral",
       "questionImages": [],
       "id": "1735757337-1789397605702",
-      "createdAt": "2026-09-14T14:54:27.924Z",
-      "updatedAt": "2026-09-14T14:54:27.924Z"
+      "createdAt": "2026-09-14T14:57:25.824Z",
+      "updatedAt": "2026-09-14T14:57:25.824Z"
     },
     {
       "questionHash": "-820181612",
@@ -431,7 +431,7 @@
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T14:57:04.520Z"
+    "lastSync": "2026-09-14T14:57:25.824Z"
   },
   "metadata": {
     "machineId": "default",
