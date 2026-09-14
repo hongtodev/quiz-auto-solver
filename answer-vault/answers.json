@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T14:54:35.029Z",
+  "lastUpdated": "2026-09-14T14:54:41.650Z",
   "source": "git",
   "answers": [
     {
@@ -355,17 +355,50 @@
       "id": "-672677541-1789397675028",
       "createdAt": "2026-09-14T14:54:35.028Z",
       "updatedAt": "2026-09-14T14:54:35.028Z"
+    },
+    {
+      "questionHash": "-908365306",
+      "question": "Tại sao việc tổ chức một buổi \"trao đổi thảo luận báo cáo kết quả\" lại quan trọng đối với kỹ năng học tập trực tuyến",
+      "answer": "B",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Giúp sinh viên rèn luyện kỹ năng thuyết trình, tương tác, giải quyết vấn đề và tư duy phản biện thông qua việc trình bày và nhận phản hồi",
+      "options": [
+        {
+          "text": "Để giáo viên chấm điểm quá trình, các bài kiểm tra nhanh hơn",
+          "value": "A"
+        },
+        {
+          "text": "Giúp sinh viên rèn luyện kỹ năng thuyết trình, tương tác, giải quyết vấn đề và tư duy phản biện thông qua việc trình bày và nhận phản hồi",
+          "value": "B"
+        },
+        {
+          "text": "Chỉ để sinh viên trình bày nội dung nghiên cứu của môn học",
+          "value": "C"
+        },
+        {
+          "text": "Để tiết kiệm thời gian học tập cho sinh viên",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral",
+      "questionImages": [],
+      "id": "-908365306-1789397681650",
+      "createdAt": "2026-09-14T14:54:41.650Z",
+      "updatedAt": "2026-09-14T14:54:41.650Z"
     }
   ],
   "stats": {
-    "totalAnswers": 11,
+    "totalAnswers": 12,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T14:54:35.029Z"
+    "lastSync": "2026-09-14T14:54:41.650Z"
   },
   "metadata": {
     "machineId": "default",
