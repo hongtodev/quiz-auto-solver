@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T15:03:43.880Z",
+  "lastUpdated": "2026-09-14T15:04:01.674Z",
   "source": "git",
   "answers": [
     {
@@ -685,17 +685,46 @@
       "id": "1718695631-1789398223879",
       "createdAt": "2026-09-14T15:03:43.879Z",
       "updatedAt": "2026-09-14T15:03:43.879Z"
+    },
+    {
+      "questionHash": "1259567776",
+      "question": "Khi thực hiện một lệnh máy, đơn vị xử lý trung tâm:",
+      "answer": "B",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Tuỳ vào lệnh máy cụ thể mới phải thực hiện các thao tác xác định địa chỉ toán hạng và nhập toán hạng",
+      "options": [
+        {
+          "text": "Luôn phải thực hiện các thao tác xác định địa chỉ toán hạng và nhập toán hạng",
+          "value": "A"
+        },
+        {
+          "text": "Tuỳ vào lệnh máy cụ thể mới phải thực hiện các thao tác xác định địa chỉ toán hạng và nhập toán hạng",
+          "value": "B"
+        },
+        {
+          "text": "Không phải thực hiện các thao tác xác định địa chỉ toán hạng và nhập toán hạng",
+          "value": "C"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral",
+      "questionImages": [],
+      "id": "1259567776-1789398241674",
+      "createdAt": "2026-09-14T15:04:01.674Z",
+      "updatedAt": "2026-09-14T15:04:01.674Z"
     }
   ],
   "stats": {
-    "totalAnswers": 21,
+    "totalAnswers": 22,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T15:03:43.880Z"
+    "lastSync": "2026-09-14T15:04:01.674Z"
   },
   "metadata": {
     "machineId": "default",
