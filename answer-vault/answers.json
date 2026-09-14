@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T15:04:59.929Z",
+  "lastUpdated": "2026-09-14T15:05:03.569Z",
   "source": "git",
   "answers": [
     {
@@ -908,17 +908,50 @@
       "id": "434616773-1789398299929",
       "createdAt": "2026-09-14T15:04:59.929Z",
       "updatedAt": "2026-09-14T15:04:59.929Z"
+    },
+    {
+      "questionHash": "-433959207",
+      "question": "Một lệnh máy của máy tính hiện đại thường có hai trường thông tin: trường mã thao tác và trường địa chỉ. Khi đó, trường địa chỉ chứa (cácon số mang thông tin về:",
+      "answer": "A",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Địa chỉ nơi chứa toán hạng mà lệnh xử lý hoặc địa chỉ ô nhớ chứa lệnh máy cần thực hiện tiếp theo",
+      "options": [
+        {
+          "text": "Địa chỉ nơi chứa toán hạng mà lệnh xử lý hoặc địa chỉ ô nhớ chứa lệnh máy cần thực hiện tiếp theo",
+          "value": "A"
+        },
+        {
+          "text": "Địa chỉ ô nhớ chứa lệnh máy cần thực hiện tiếp theo",
+          "value": "B"
+        },
+        {
+          "text": "Địa chỉ nơi chứa toán hạng mà lệnh xử lý",
+          "value": "C"
+        },
+        {
+          "text": "Địa chỉ ô nhớ chứa lệnh máy này",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral",
+      "questionImages": [],
+      "id": "-433959207-1789398303569",
+      "createdAt": "2026-09-14T15:05:03.569Z",
+      "updatedAt": "2026-09-14T15:05:03.569Z"
     }
   ],
   "stats": {
-    "totalAnswers": 28,
+    "totalAnswers": 29,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T15:04:59.929Z"
+    "lastSync": "2026-09-14T15:05:03.569Z"
   },
   "metadata": {
     "machineId": "default",
