@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T15:05:13.579Z",
+  "lastUpdated": "2026-09-14T15:05:19.786Z",
   "source": "git",
   "answers": [
     {
@@ -1040,17 +1040,50 @@
       "id": "-256641124-1789398313579",
       "createdAt": "2026-09-14T15:05:13.579Z",
       "updatedAt": "2026-09-14T15:05:13.579Z"
+    },
+    {
+      "questionHash": "1964599978",
+      "question": "Xét một máy tính với tập lệnh máy khuôn dạng 8-bit, với phần địa chỉ chỉ có một địa chỉ 5 bit. Dạng gợi nhớ của lệnh máy như sau: Tên lệnh xxxxx, trong đó xxxxx là số nhị phân 5 bit. Lệnh cộng ADD xxxxx thực hiện cộng nội dung thanh ghi ACC với nội dung ô nhớ địa chỉ xxxxx, kết quả chứa vào ACC. Lệnh LOAD xxxxx thực hiện nhập nội dung ô nhớ địa chỉ xxxxx vào ACC. Hãy khảo sát quá trình đơn vị xử lý trung tâm thực hiện tuần tự hai lệnh sau:LOAD 01110ADD 10001 với giả định ô nhớ 01110 chứa giá trị 10010 và ô nhớ 10001 chứa gía trị 01001. Vậy sau khi thực hiện xong lệnh ADD, thanh chứa ACC sẽ có giá trị:",
+      "answer": "A",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "11111",
+      "options": [
+        {
+          "text": "11111",
+          "value": "A"
+        },
+        {
+          "text": "11011",
+          "value": "B"
+        },
+        {
+          "text": "10011",
+          "value": "C"
+        },
+        {
+          "text": "01001",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral",
+      "questionImages": [],
+      "id": "1964599978-1789398319786",
+      "createdAt": "2026-09-14T15:05:19.786Z",
+      "updatedAt": "2026-09-14T15:05:19.786Z"
     }
   ],
   "stats": {
-    "totalAnswers": 32,
+    "totalAnswers": 33,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T15:05:13.579Z"
+    "lastSync": "2026-09-14T15:05:19.786Z"
   },
   "metadata": {
     "machineId": "default",
