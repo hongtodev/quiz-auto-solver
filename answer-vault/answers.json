@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-15T11:04:09.631Z",
+  "lastUpdated": "2026-09-15T11:04:12.578Z",
   "source": "git",
   "answers": [
     {
@@ -1643,17 +1643,50 @@
       "id": "517909019-1789470249630",
       "createdAt": "2026-09-15T11:04:09.630Z",
       "updatedAt": "2026-09-15T11:04:09.630Z"
+    },
+    {
+      "questionHash": "689773954",
+      "question": "Sự khác biệt chính giữa địa chỉ IP Public và IP Private là gì?",
+      "answer": "D",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "IP Public được cấp bởi ISP, IP Private dùng trong mạng nội bộ",
+      "options": [
+        {
+          "text": "IP Public chỉ dùng trong mạng nội bộ, IP Private dùng cho Internet",
+          "value": "A"
+        },
+        {
+          "text": "IP Public luôn miễn phí, IP Private luôn trả phí",
+          "value": "B"
+        },
+        {
+          "text": "IP Public và IP Private hoàn toàn giống nhau",
+          "value": "C"
+        },
+        {
+          "text": "IP Public được cấp bởi ISP, IP Private dùng trong mạng nội bộ",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral:latest",
+      "questionImages": [],
+      "id": "689773954-1789470252578",
+      "createdAt": "2026-09-15T11:04:12.578Z",
+      "updatedAt": "2026-09-15T11:04:12.578Z"
     }
   ],
   "stats": {
-    "totalAnswers": 51,
+    "totalAnswers": 52,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-15T11:04:09.631Z"
+    "lastSync": "2026-09-15T11:04:12.578Z"
   },
   "metadata": {
     "machineId": "default",
