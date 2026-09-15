@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-15T11:03:22.125Z",
+  "lastUpdated": "2026-09-15T11:03:31.917Z",
   "source": "git",
   "answers": [
     {
@@ -1478,17 +1478,50 @@
       "id": "-56900926-1789470202125",
       "createdAt": "2026-09-15T11:03:22.125Z",
       "updatedAt": "2026-09-15T11:03:22.125Z"
+    },
+    {
+      "questionHash": "1181562227",
+      "question": "Địa chỉ IP dùng để làm gì?",
+      "answer": "C",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Xác định và kết nối các thiết bị trong mạng",
+      "options": [
+        {
+          "text": "Tạo tên miền cho website",
+          "value": "A"
+        },
+        {
+          "text": "Lưu trữ dữ liệu cá nhân",
+          "value": "B"
+        },
+        {
+          "text": "Xác định và kết nối các thiết bị trong mạng",
+          "value": "C"
+        },
+        {
+          "text": "Bảo mật thông tin người dùng",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral:latest",
+      "questionImages": [],
+      "id": "1181562227-1789470211917",
+      "createdAt": "2026-09-15T11:03:31.917Z",
+      "updatedAt": "2026-09-15T11:03:31.917Z"
     }
   ],
   "stats": {
-    "totalAnswers": 46,
+    "totalAnswers": 47,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-15T11:03:22.125Z"
+    "lastSync": "2026-09-15T11:03:31.917Z"
   },
   "metadata": {
     "machineId": "default",
