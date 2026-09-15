@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-15T11:03:18.345Z",
+  "lastUpdated": "2026-09-15T11:03:22.125Z",
   "source": "git",
   "answers": [
     {
@@ -1445,17 +1445,50 @@
       "id": "-1239615856-1789470198345",
       "createdAt": "2026-09-15T11:03:18.345Z",
       "updatedAt": "2026-09-15T11:03:18.345Z"
+    },
+    {
+      "questionHash": "-56900926",
+      "question": "Khi sinh viên nộp bài luyện tập trực tuyến, hệ thống sẽ hiển thị gì?",
+      "answer": "D",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Điểm, số câu đúng và đáp án sai để tham khảo",
+      "options": [
+        {
+          "text": "Chỉ thời gian còn lại",
+          "value": "A"
+        },
+        {
+          "text": "Chỉ điểm số cuối cùng",
+          "value": "B"
+        },
+        {
+          "text": "Chỉ số lần làm bài",
+          "value": "C"
+        },
+        {
+          "text": "Điểm, số câu đúng và đáp án sai để tham khảo",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral:latest",
+      "questionImages": [],
+      "id": "-56900926-1789470202125",
+      "createdAt": "2026-09-15T11:03:22.125Z",
+      "updatedAt": "2026-09-15T11:03:22.125Z"
     }
   ],
   "stats": {
-    "totalAnswers": 45,
+    "totalAnswers": 46,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-15T11:03:18.345Z"
+    "lastSync": "2026-09-15T11:03:22.125Z"
   },
   "metadata": {
     "machineId": "default",
