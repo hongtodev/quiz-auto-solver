@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-15T11:03:31.917Z",
+  "lastUpdated": "2026-09-15T11:03:51.258Z",
   "source": "git",
   "answers": [
     {
@@ -1511,17 +1511,50 @@
       "id": "1181562227-1789470211917",
       "createdAt": "2026-09-15T11:03:31.917Z",
       "updatedAt": "2026-09-15T11:03:31.917Z"
+    },
+    {
+      "questionHash": "-711182383",
+      "question": "Vì sao IPv6 được phát triển để thay thế IPv4?",
+      "answer": "C",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "IPv4 thiếu số lượng địa chỉ IP",
+      "options": [
+        {
+          "text": "IPv4 không hỗ trợ website",
+          "value": "A"
+        },
+        {
+          "text": "IPv4 không an toàn",
+          "value": "B"
+        },
+        {
+          "text": "IPv4 thiếu số lượng địa chỉ IP",
+          "value": "C"
+        },
+        {
+          "text": "IPv4 quá phức tạp",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral:latest",
+      "questionImages": [],
+      "id": "-711182383-1789470231257",
+      "createdAt": "2026-09-15T11:03:51.257Z",
+      "updatedAt": "2026-09-15T11:03:51.257Z"
     }
   ],
   "stats": {
-    "totalAnswers": 47,
+    "totalAnswers": 48,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-15T11:03:31.917Z"
+    "lastSync": "2026-09-15T11:03:51.258Z"
   },
   "metadata": {
     "machineId": "default",
