@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-15T11:03:08.529Z",
+  "lastUpdated": "2026-09-15T11:03:11.726Z",
   "source": "git",
   "answers": [
     {
@@ -1379,17 +1379,50 @@
       "id": "153749817-1789470188528",
       "createdAt": "2026-09-15T11:03:08.528Z",
       "updatedAt": "2026-09-15T11:03:08.528Z"
+    },
+    {
+      "questionHash": "-27962972",
+      "question": "Một điểm yếu cơ bản của học tập trực tuyến so với học truyền thống là gì?",
+      "answer": "D",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Khả năng tương tác trực tiếp bị hạn chế",
+      "options": [
+        {
+          "text": "Không có học liệu",
+          "value": "A"
+        },
+        {
+          "text": "Không cần Internet",
+          "value": "B"
+        },
+        {
+          "text": "Tính linh hoạt kém",
+          "value": "C"
+        },
+        {
+          "text": "Khả năng tương tác trực tiếp bị hạn chế",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral:latest",
+      "questionImages": [],
+      "id": "-27962972-1789470191726",
+      "createdAt": "2026-09-15T11:03:11.726Z",
+      "updatedAt": "2026-09-15T11:03:11.726Z"
     }
   ],
   "stats": {
-    "totalAnswers": 43,
+    "totalAnswers": 44,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-15T11:03:08.529Z"
+    "lastSync": "2026-09-15T11:03:11.726Z"
   },
   "metadata": {
     "machineId": "default",
