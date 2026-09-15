@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-15T11:04:02.706Z",
+  "lastUpdated": "2026-09-15T11:04:06.501Z",
   "source": "git",
   "answers": [
     {
@@ -1577,17 +1577,50 @@
       "id": "-1432625479-1789470236106",
       "createdAt": "2026-09-15T11:03:56.106Z",
       "updatedAt": "2026-09-15T11:03:56.106Z"
+    },
+    {
+      "questionHash": "1468714454",
+      "question": "Vì sao IPv6 có thể đáp ứng tốt hơn nhu cầu kết nối của các thiết bị mới?",
+      "answer": "C",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Vì IPv6 có không gian địa chỉ IP rộng lớn hơn nhiều so với IPv4",
+      "options": [
+        {
+          "text": "Vì IPv6 chạy nhanh hơn IPv4",
+          "value": "A"
+        },
+        {
+          "text": "Vì IPv6 không cần giao thức TCP/IP",
+          "value": "B"
+        },
+        {
+          "text": "Vì IPv6 có không gian địa chỉ IP rộng lớn hơn nhiều so với IPv4",
+          "value": "C"
+        },
+        {
+          "text": "Vì IPv6 chỉ dùng cho thiết bị di động",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral:latest",
+      "questionImages": [],
+      "id": "1468714454-1789470246501",
+      "createdAt": "2026-09-15T11:04:06.501Z",
+      "updatedAt": "2026-09-15T11:04:06.501Z"
     }
   ],
   "stats": {
-    "totalAnswers": 49,
+    "totalAnswers": 50,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-15T11:04:02.706Z"
+    "lastSync": "2026-09-15T11:04:06.501Z"
   },
   "metadata": {
     "machineId": "default",
