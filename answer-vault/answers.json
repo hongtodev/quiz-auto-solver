@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-15T11:03:51.258Z",
+  "lastUpdated": "2026-09-15T11:03:56.106Z",
   "source": "git",
   "answers": [
     {
@@ -1544,17 +1544,50 @@
       "id": "-711182383-1789470231257",
       "createdAt": "2026-09-15T11:03:51.257Z",
       "updatedAt": "2026-09-15T11:03:51.257Z"
+    },
+    {
+      "questionHash": "-1432625479",
+      "question": "Mạng máy tính được hiểu là gì?",
+      "answer": "C",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Mạng viễn thông kỹ thuật số kết nối các máy tính với nhau",
+      "options": [
+        {
+          "text": "Một loại thiết bị lưu trữ dữ liệu",
+          "value": "A"
+        },
+        {
+          "text": "Hệ thống phần mềm kết nối các website",
+          "value": "B"
+        },
+        {
+          "text": "Mạng viễn thông kỹ thuật số kết nối các máy tính với nhau",
+          "value": "C"
+        },
+        {
+          "text": "Bộ sưu tập các trang web trên Internet",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral:latest",
+      "questionImages": [],
+      "id": "-1432625479-1789470236106",
+      "createdAt": "2026-09-15T11:03:56.106Z",
+      "updatedAt": "2026-09-15T11:03:56.106Z"
     }
   ],
   "stats": {
-    "totalAnswers": 48,
+    "totalAnswers": 49,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-15T11:03:51.258Z"
+    "lastSync": "2026-09-15T11:03:56.106Z"
   },
   "metadata": {
     "machineId": "default",
