@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-14T15:40:38.937Z",
+  "lastUpdated": "2026-09-15T11:03:08.529Z",
   "source": "git",
   "answers": [
     {
@@ -1346,17 +1346,50 @@
       "id": "-1944104823-1789398712518",
       "createdAt": "2026-09-14T15:40:29.304Z",
       "updatedAt": "2026-09-14T15:40:29.304Z"
+    },
+    {
+      "questionHash": "153749817",
+      "question": "Tên miền “.edu” thường được dùng cho tổ chức nào?",
+      "answer": "C",
+      "answerText": "Đáp án được xác nhận trên trang Moodle.",
+      "correctAnswerText": "Tổ chức giáo dục",
+      "options": [
+        {
+          "text": "Doanh nghiệp thương mại",
+          "value": "A"
+        },
+        {
+          "text": "Các trang mạng xã hội",
+          "value": "B"
+        },
+        {
+          "text": "Tổ chức giáo dục",
+          "value": "C"
+        },
+        {
+          "text": "Tổ chức phi lợi nhuận",
+          "value": "D"
+        }
+      ],
+      "confidence": 1,
+      "confirmed": true,
+      "source": "moodle-review",
+      "model": "mistral:latest",
+      "questionImages": [],
+      "id": "153749817-1789470188528",
+      "createdAt": "2026-09-15T11:03:08.528Z",
+      "updatedAt": "2026-09-15T11:03:08.528Z"
     }
   ],
   "stats": {
-    "totalAnswers": 42,
+    "totalAnswers": 43,
     "bySource": {
       "ollama": 1,
       "openai": 0,
       "manual": 0
     },
     "accuracy": 1,
-    "lastSync": "2026-09-14T15:40:38.937Z"
+    "lastSync": "2026-09-15T11:03:08.529Z"
   },
   "metadata": {
     "machineId": "default",
